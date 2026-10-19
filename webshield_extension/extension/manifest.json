@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "WebShield CORS & Supply Chain Auditor",
+  "version": "0.1.0",
+  "description": "Audita configuraciones CORS y riesgos básicos de recursos JavaScript de terceros desde el navegador.",
+  "minimum_chrome_version": "120",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "webRequest"
+  ],
+  "optional_host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_title": "WebShield",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}

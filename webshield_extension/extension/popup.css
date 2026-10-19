@@ -1,0 +1,23 @@
+:root { font-family: Arial, sans-serif; color: #172033; background: #f5f7fb; }
+body { margin: 0; min-width: 390px; }
+.container { padding: 16px; }
+h1 { margin: 0; font-size: 20px; }
+p { margin: 5px 0 12px; font-size: 12px; color: #5c677d; }
+button { width: 100%; border: 0; border-radius: 8px; padding: 10px; margin: 5px 0; cursor: pointer; font-weight: 700; }
+#scanBtn { background: #1f6feb; color: white; }
+.secondary { background: #e8edf5; color: #172033; }
+.status { padding: 7px; border-radius: 6px; background: white; }
+section { margin-top: 14px; }
+h2 { font-size: 14px; margin: 0 0 7px; }
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.card { background: white; border-radius: 8px; padding: 10px; text-align: center; }
+.card strong { display:block; font-size: 18px; }
+.finding { background: white; border-left: 5px solid #999; border-radius: 7px; padding: 9px; margin: 6px 0; font-size: 12px; }
+.finding.high { border-color: #d64545; }
+.finding.medium { border-color: #d59700; }
+.finding.low { border-color: #718096; }
+.script { background: white; border-radius: 7px; padding: 8px; margin: 6px 0; font-size: 11px; word-break: break-word; }
+.ok { color: #177245; font-weight: 700; }
+.warn { color: #a56a00; font-weight: 700; }
+.danger { color: #a51d2d; font-weight: 700; }
+small { color: #67728a; }

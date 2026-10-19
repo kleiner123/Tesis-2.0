@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WebShield</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>WebShield</h1>
+      <p>Auditor CORS + Frontend Supply Chain</p>
+    </header>
+
+    <button id="scanBtn">Auditar página actual</button>
+    <button id="protectBtn" class="secondary">Modo protección: OFF</button>
+    <p id="status" class="status">Listo.</p>
+
+    <section>
+      <h2>Resumen</h2>
+      <div id="summary" class="cards"></div>
+    </section>
+
+    <section>
+      <h2>Hallazgos</h2>
+      <div id="findings"></div>
+    </section>
+
+    <section>
+      <h2>Recursos JavaScript</h2>
+      <div id="scripts"></div>
+    </section>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
